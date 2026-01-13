@@ -1,0 +1,39 @@
+{
+    "duration": 60,
+    "symbol": "AAPL",
+    "participants": [
+        {
+            "type": "MarketMaker",
+            "id": "MM1",
+            "fairValue": 150.0,
+            "halfSpread": 0.01,
+            "quoteSize": 50,
+            "levels": 3,
+            "requoteInterval": 0.1
+        },
+        {
+            "type": "NoiseTrader",
+            "id": "NT1",
+            "orderRate": 10.0,
+            "marketOrderPct": 0.7
+        },
+        {
+            "type": "NoiseTrader",
+            "id": "NT2",
+            "orderRate": 10.0,
+            "marketOrderPct": 0.7
+        },
+        {
+            "type": "NoiseTrader",
+            "id": "NT3",
+            "orderRate": 8.0,
+            "marketOrderPct": 0.6
+        },
+        {
+            "type": "NoiseTrader",
+            "id": "NT4",
+            "orderRate": 5.0,
+            "marketOrderPct": 0.8
+        }
+    ]
+}
