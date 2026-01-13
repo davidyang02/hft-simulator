@@ -2,6 +2,8 @@
 
 A high-performance C++ limit order book and matching engine with real-time terminal dashboard, inspired by institutional trading systems.
 
+![Terminal Dashboard](docs/dashboard.png)
+
 ## Features
 
 ### Core Engine
